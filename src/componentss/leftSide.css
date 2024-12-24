@@ -1,0 +1,38 @@
+.leftSidepart{
+    position: fixed;
+}
+
+.logo{
+    width: 100px;
+    height: 25px;
+    /* border: 1px solid black; */
+    margin-left:39px ;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    
+}
+.logoImg{
+    padding-top: 10px;
+    height: 35px;
+    width: 100%;
+}
+.navLinkPart{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.navName{
+    font-weight:700;
+    padding: 5px;
+}
+.navlink{
+    display: flex;
+    height: 35px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 5px;
+    &:hover{
+        background-color:gray;
+        border-radius: 10px;
+    }
+}
